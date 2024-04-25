@@ -26,24 +26,24 @@ body {
     background: #ffffff; 
     display: flex;
     align-items: center;
-    flex-wrap: wrap; /* Allow elements to wrap to new line if needed */
+    flex-wrap: wrap;
 }
 
 .tools {
     display: flex;
     align-items: center;
-    margin-right: auto; /* Push tools to left, adjust as needed */
+    margin-right: auto; 
 }
 .tools img {
-    margin-right: 10px; /* Adjust the spacing between images */
-    height: 30px; /* Adjust the height of the images */
-    border-radius: 50%; /* Apply border-radius to make the images circular */
-    border: 2px solid transparent; /* Add a border for better visibility */
-    transition: border-color 0.3s ease; /* Add transition effect on hover */
+    margin-right: 10px;  
+    height: 30px; 
+    border-radius: 50%; 
+    border: 2px solid transparent; 
+    transition: border-color 0.3s ease;
 }
 
 .tools img:hover {
-    border-color: #ccc; /* Change border color on hover */
+    border-color: #ccc; 
 }
 
 .brand h1 {
@@ -70,7 +70,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ccc; /* Placeholder color */
+    color: #ccc; 
 }
 
 textarea {
@@ -113,17 +113,17 @@ textarea {
     margin-bottom: 5px;
 }
 
-/* Media queries for responsiveness */
+
 @media only screen and (max-width: 600px) {
     .brand {
-        justify-content: center; /* Center align elements on small screens */
+        justify-content: center; 
     }
 
     .tools {
-        margin-right: 0; /* Remove margin to center tools */
+        margin-right: 0; 
     }
 
     textarea {
-        width: calc(100% - 20px); /* Adjust textarea width for smaller screens */
+        width: calc(100% - 20px); 
     }
 }
